@@ -1,0 +1,27 @@
+browser converts html code into Document Object Model
+
+what we do 
+select an element, decide the effect we want to apply to the selection
+
+Session storgae - persists data only until the tab is open
+when the tab is closed, the data will be removed 
+
+setTimeout - runs function once after specific time
+pass the function reference
+duration in ms (1000ms = 1s)
+default 0, will be explained with async/ await
+returns unique integer
+clearTimeout to cancel
+on window object 
+
+setInterval and setTimeout is found on the window object 
+
+setInterval - runs function repeatedly at specific intervals
+pass function reference
+clearInterval - can be used to cancel
+
+loadEvent - is fired when the whole page has loaded, including all dependent resources such as stylesheets and images.
+this is in contrast to DOMContentLoaded, which is fires as soon as page DOM has been loaded, wihout waiting for resources 
+to finish loading
+
+

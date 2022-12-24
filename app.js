@@ -861,7 +861,7 @@ console.log(random);
 // random no btw 1 to 10
 const random1 = Math.ceil(Math.random() * 10);
 console.log(random1); 
-*/
+
 
 // Data Object  - global object
 
@@ -884,3 +884,4 @@ const sentence =  `${days[day]}, ${date.getDate()} ${months[month]} ${date.getFu
 console.log(sentence);
 
 document.body.innerHTML = sentence;
+*/

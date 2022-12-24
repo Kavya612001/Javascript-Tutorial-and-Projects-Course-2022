@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+       .colors {
+        background: red;
+        color: white;
+       }
+       .text {
+        font-size: 2rem;
+        letter-spacing: 1rem;
+       }
+       .red {
+        background: red;
+        color: white;
+       }
+       .blue {
+        background-color: blue;
+        color: white;
+       }
+    </style>
+</head>
+<body>
+    <h1 id="title">Hello</h1>
+    <h2>Just a h2 tag</h2>
+    <h2>This is a second h2 tag</h2>
+    <ul id="result">
+        <li class="special">apple</li>
+        <li class="special">orange</li>
+        <li class="special">banana</li>
+        <li>pear</li>
+        <li class="special last">tomato</li>
+    </ul>
+    <div id="firstDiv">
+        <h1>Element inside the div</h1>
+        <div class="secondDiv">
+            <h3>Element inside the inner div</h3>
+            <h4>Another element in</h4>
+        </div>
+    </div>
+    <button id="btn">Click Me</button>
+    <ul id="list">
+        <li class="first">first</li>
+        <li>list item2</li>
+        <li>list item3</li>
+        <li id="last">last</li>
+    </ul>
+    <h1 id="special">This is the special content</h1>
+    <ul>
+        <li class="link">i have a class </li>
+        <a href="first.html" id="randomLink">random link</a>
+        <li>i have no attributes</li>
+    </ul>
+    <h1 id="first" class="text">i'm first element</h1>
+    <h1 id="second">i'm second element</h1>
+    <h1 id="third">i'm third element</h1>
+
+    <div id="resultChange">
+        <h1 class="red">i'm the child of the result</h1>
+    </div>
+    <h5 id="insertBef">Testing the insert before function</h5>
+    <script src="app.js"></script>
+</body>
+</html>
