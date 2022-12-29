@@ -1,0 +1,14 @@
+provides structure
+split code into smaller files
+share code across the app
+same as react
+use server extension locally (only way to develop app with modules - server extensions)
+used in projects
+
+modules - work only on live server and not on the local file system
+
+in default exports, name can be anything while impoerting 
+but in named exports, name should be the same while importing
+
+only on default export is possible per file
+many number of named exports can be there
