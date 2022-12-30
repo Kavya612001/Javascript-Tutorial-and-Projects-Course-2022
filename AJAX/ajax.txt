@@ -1,0 +1,31 @@
+All these are about making the app dynamic 
+
+AJAX - Asynchronous Javascript and XML
+
+HTTP requests - communication between client and server
+API - Application Programming Interface
+
+
+HTTP methods
+get - request a resource from the server
+post - add some data to the user 
+put - Edit 
+delete - delete resource fron server
+
+XMLHttpRequest - browser object
+
+JSON - Javascript Object Notation
+In json object , key and value pairs, if strings must be enclosed with double quotes
+for arrays, number and objects double quotes is not necessary 
+
+Inorder to pass data between the server and the browser , we use text 
+
+when we need to pass data from browser to server - use JSON Stringify
+when data is passed from the server to browser - use JSON Parse
+
+Fetch  - built in (fetch always returns a promise)
+promise based
+XHR is not wrong, but fetch is an alternative approach that has simpler and cleaner syntax
+the end result is still the same. still we get dynamically, behind the scenes
+
+fetch only treats only n/w errors as errors (like urls)

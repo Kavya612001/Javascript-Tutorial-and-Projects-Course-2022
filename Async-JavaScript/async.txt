@@ -1,0 +1,29 @@
+Javascript is single threaded, synchronous language
+Js executes the script one line after the another
+
+Browser provides these functionalities - fetchData, getGeoLocation, setTimeout, setTimer
+all these happen asynchronously 
+
+asynchronous means things happening in the background 
+
+async/await are built on top of promises
+
+if a promise is successfully resolved, we can use the "then" to get the values
+
+promise.then( (data) => {
+    console.log(data);
+});
+
+then error is catched using the catch 
+
+inorder to use await, async keyword must be used along with the function
+
+await waits till the promise is settled 
+
+async function someFunction() {
+    await
+}
+
+const otherFunction = async() => {
+    await
+}
